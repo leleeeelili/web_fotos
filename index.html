@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería de fotos</title>
+</head>
+<body>
+    <h1>Sube tus fotos</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="imagenes[]" multiple><br><br>
+        <input type="submit" value="Subir imágenes">
+    </form>
+
+    <h2>Fotos subidas</h2>
+    <div id="galeria">
+        <!-- Aquí se mostrarán las imágenes subidas -->
+    </div>
+</body>
+</html>
